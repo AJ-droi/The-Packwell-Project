@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="packwell.css">
+    <title>The packwell project</title>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+
+        var log = document.getElementById('id02');
+
+        window.onclick = function(event) {
+            if(event.target == log) {
+                log.style.display = "none";
+            }
+        }
+        </script>
+</head>
+<body>
+
+    <div class="header">
+       
+    </div>
+
+    <div class="head">
+        <img src="images/stempro.png">
+
+        <div class="nav">
+            <ul>
+                <li><a href="file:///C:/Users/USER/Desktop/packwell/code.html#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Game</a></li>
+                <li><a href="#">App</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    
+
+   <div class="hero">
+       <h1>The Packwell Project</h1>
+       
+       <a onclick="document.getElementById('id02').style.display='block'" id="click01">Log in</a><br>
+       <a onclick="document.getElementById('id01').style.display='block'" id="click02">Sign Up</a>
+   </div>
+
+   <div class="about" id="about">
+        <h2>About Project</h2>
+        <p>Non reprehenderit dolore commodo sint eu aliquip cillum et do. Deserunt dolore ex esse culpa duis mollit mollit adipisicing et velit elit do. Aute voluptate est ipsum sunt sunt culpa dolor sint id esse voluptate sint anim. Magna officia eu deserunt cupidatat ipsum exercitation Lorem occaecat. Elit veniam ut ut proident ullamco mollit fugiat mollit non laborum proident. Velit cupidatat ad dolore dolore labore id.</p>
+   </div>
+
+   <div class="contact">
+       <p></p>
+   </div>
+
+   <div id="id02" class="log">
+       <form action="action_page.php" method="post">
+           <div class="log-in">
+               <h1>Log into your Account</h1>
+               <hr>
+
+               <label for="email"><b>Email</b></label><br>
+               <input type="text" placeholder="Enter Your Email" name="email" required><br>
+               <label for="psw"><b>Password</b></label><br>
+               <input type="password" placeholder="enter your password" name="psw" required><br>
+
+               <a type="submit" class="signup">Log in</a>
+ 
+           </div>
+       </form>
+   </div>
+
+    <div id="id01" class="modal">
+        <form action=" " method="post">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfcaZtRA5TyTv8Dh-OZ-PZZhwOWapB6fDZ0eiLwenudKpAFjQ/viewform?embedded=true" 
+            width="650" height="500" frameborder="0" marginheight="0" marginwidth="0" overflow="hidden">Loading…</iframe>
+
+             <div class="clearfix">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signup">Sign Up</button>
+            </div>
+        </form>
+   </div>
+
+   <footer>
+       <div class="social">
+            <div id="facebook">
+                <a href="#"><img src="images/Icon/iconfinder_Neon_Line_Social_Circles_50Icon_10px_grid-13_657794.svg"> </a>
+            </div>
+
+            <div id="twitter">
+                <a href="#"><img src="images/Icon/iconfinder_Neon_Line_Social_Circles_50Icon_10px_grid-36_657766.svg"> </a>
+            </div>
+    
+            <div id="instagram">
+                <a href="#"><img src="images/Icon/iconfinder_SocialMedia_Instagram-Outline_2959748.svg"> </a>
+            </div>
+            
+            <div id="whatsapp">
+                <a href="#"><img src="images/Icon/iconfinder_Whatsapp_3709562.svg"> </a>
+            </div>
+       </div>
+        
+    </footer>
+  
+</body>
+</html>

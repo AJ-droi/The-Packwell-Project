@@ -1,0 +1,208 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header{
+    position:relative;
+    background-image: url(images/clean2.jpg);
+    background-size:contain;
+    width:auto;
+    overflow:auto;
+    height:100vh;
+    margin-top:8%;
+}
+
+
+.header::before{
+    content:"";
+    position: absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    background-color:#0c420c;
+    opacity:0.4;
+}
+
+img{
+    position:fixed;
+    z-index: -1;
+    top:3%;
+    left:3%;
+    width:10%;
+    margin-top:1%;
+}
+
+
+.nav ul{
+    position: fixed;
+    z-index:-1;
+    top:2%;
+    right:5%;
+    margin-top: 2%;
+}
+
+.nav ul li{
+    display: inline;
+    margin-left: 20px;
+    padding: 15px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#0ca80c;
+    padding:20px;
+}
+
+ .nav ul li a:hover{
+    color: rgb(3, 54, 95);
+    border-bottom: 2px solid #021d03;
+}
+
+.hero{
+    position: absolute;
+    top:45%;
+    left:40%;
+    text-align: center;
+    color:white;
+}
+
+.hero h1{
+    margin-left: 10%;
+    margin-bottom: 20%;
+    width:90%;
+    border:3px solid green;
+}
+
+
+.hero a{
+    font-size: 150%;
+    text-decoration: none;
+    border: 3px solid white;
+}
+
+#click01,#click02{
+    position: absolute;
+    top:45%;
+    left:0%;
+    width: 100%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    padding: 5%;
+}
+
+#click01{
+    margin-top:10%;
+}
+
+#click02{
+    margin-top:40%;
+}
+
+.about{
+    background-color: #0c420c;
+    margin-top: 5px;
+    padding:5% 15%;
+}
+
+.about h2, .about p{
+    color:white;
+}
+
+.sign-up{
+    margin:auto 20%;
+    padding:8% 10%;
+    border:1px solid black;
+    overflow: auto;
+}
+
+label{
+    text-align: left;
+}
+
+hr{
+    width:auto;
+}
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 13%;
+    width: 80%; /* Full width */
+    height: 100%; /* Full height */
+    overflow:auto; /* Enable scroll if needed */
+    background-color: #0c420c;
+    padding: 5% 30%;
+  }
+
+  .log {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #ffffff;
+    padding-top: 50px;
+  }
+
+  .close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #021d03;
+    cursor: pointer;
+  }
+
+
+.social{
+    position: relative;
+    display: flex;
+    width:100%;
+    float:right;
+    height:20vh;
+    background-color: white;
+    z-index: 1;
+    border: 3px solid blue;
+}
+  
+#facebook img, 
+#twitter img,
+#instagram img,
+#whatsapp img{
+    position: relative;
+    top:180%;
+    bottom:40%;
+    left:0%;
+    right:0%;
+    z-index: 1;
+    width: 3%;
+}
+
+#facebook img{
+   
+}
+
+#twitter img{
+    
+}
+
+#instagram img{
+    
+}
+
+#whatsapp img{
+    
+}
